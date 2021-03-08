@@ -1,0 +1,1 @@
+Copyright &copy; 2019-2020 [MYKG](http://www.mykg.ai) All Rights Reserved.
