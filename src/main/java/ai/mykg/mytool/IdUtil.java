@@ -5,7 +5,7 @@ import ai.mykg.mytool.convert.ConvertException;
 import java.util.UUID;
 
 /**
- * @author Goddy <goddy@mykg.ai> 2021/3/5
+ * @author Goddy [goddy@mykg.ai] 2021/3/5
  * @since 0.0.1
  */
 public class IdUtil {
@@ -15,6 +15,7 @@ public class IdUtil {
   /**
    * generate short uuid
    *
+   * @return short uuid
    * @since 0.0.1
    */
   public static String shortUuid() {
@@ -25,6 +26,8 @@ public class IdUtil {
   /**
    * generate short uuid from uuid
    *
+   * @param uuid uuid
+   * @return short uuid
    * @since 0.0.1
    */
   public static String shortUuid(String uuid) {
@@ -35,6 +38,7 @@ public class IdUtil {
   /**
    * revert short uuid to normal uuid
    *
+   * @param shortUuid short uuid
    * @return uuid
    * @since 0.0.1
    */

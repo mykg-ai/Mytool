@@ -2,7 +2,7 @@ package ai.mykg.mytool.convert;
 
 /**
  * @since 0.0.1
- * @author Goddy <goddy@mykg.ai> 2021/3/6
+ * @author Goddy [goddy@mykg.ai] 2021/3/6
  */
 public class ConvertException extends Exception {
 

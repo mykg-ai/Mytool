@@ -6,7 +6,7 @@ import java.util.Set;
 
 /**
  * @since 0.0.1
- * @author Goddy <goddy@mykg.ai> 2021/3/5
+ * @author Goddy [goddy@mykg.ai] 2021/3/5
  */
 public class BaseConverter implements Serializable {
 

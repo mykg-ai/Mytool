@@ -1,7 +1,7 @@
 package ai.mykg.mytool;
 
 /**
- * @author Goddy <goddy@mykg.ai> 2021/3/6
+ * @author Goddy [goddy@mykg.ai] 2021/3/6
  * @since 0.0.1
  */
 public class StringUtil {
