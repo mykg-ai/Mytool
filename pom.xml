@@ -6,10 +6,12 @@
 
   <groupId>ai.mykg</groupId>
   <artifactId>mytool</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.4</version>
   <packaging>jar</packaging>
+
   <name>mytool</name>
   <description>Mytool, provided by MYKG.AI</description>
+  <url>https://github.com/mykg-ai/Mytool</url>
 
   <dependencies>
     <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter -->
@@ -28,6 +30,34 @@
       <scope>provided</scope>
     </dependency>
   </dependencies>
+
+  <licenses>
+    <license>
+      <name>GPL-v3.0</name>
+      <url>https://www.gnu.org/licenses/gpl-3.0.txt</url>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <name>Goddy Wu</name>
+      <email>goddy@mykg.ai</email>
+      <organization>MYKG.AI</organization>
+      <organizationUrl>https://www.mykg.ai</organizationUrl>
+    </developer>
+    <developer>
+      <name>Honghui Wang</name>
+      <email>honghui@mykg.ai</email>
+      <organization>MYKG.AI</organization>
+      <organizationUrl>https://www.mykg.ai</organizationUrl>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:git:git@github.com:mykg-ai/Mytool.git</connection>
+    <developerConnection>scm:git:git@github.com:mykg-ai/Mytool.git</developerConnection>
+    <url>https://github.com/mykg-ai/Mytool/tree/main</url>
+  </scm>
 
   <distributionManagement>
     <snapshotRepository>
