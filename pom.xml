@@ -6,12 +6,16 @@
 
   <groupId>ai.mykg</groupId>
   <artifactId>mytool</artifactId>
-  <version>0.0.4</version>
+  <version>0.0.5</version>
   <packaging>jar</packaging>
 
   <name>mytool</name>
   <description>Mytool, provided by MYKG.AI</description>
   <url>https://github.com/mykg-ai/Mytool</url>
+
+  <properties>
+    <java.version>1.8</java.version>
+  </properties>
 
   <dependencies>
     <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter -->
@@ -28,6 +32,13 @@
       <artifactId>lombok</artifactId>
       <version>1.18.18</version>
       <scope>provided</scope>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/commons-codec/commons-codec -->
+    <dependency>
+      <groupId>commons-codec</groupId>
+      <artifactId>commons-codec</artifactId>
+      <version>1.15</version>
     </dependency>
   </dependencies>
 

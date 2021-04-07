@@ -5,8 +5,8 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @since 0.0.1
  * @author Goddy [goddy@mykg.ai] 2021/3/5
+ * @since 0.0.1
  */
 public class BaseConverter implements Serializable {
 
@@ -53,7 +53,6 @@ public class BaseConverter implements Serializable {
     }
     return convert(this.distAlphabet, this.srcAlphabet, str);
   }
-
 
   // === private ===
 

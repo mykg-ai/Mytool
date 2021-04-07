@@ -42,8 +42,7 @@ public class StringUtil {
    * </pre>
    *
    * @param cs the CharSequence to check, may be null
-   * @return true if the CharSequence is
-   *  not empty and not null and not whitespace only
+   * @return true if the CharSequence is not empty and not null and not whitespace only
    * @since 0.0.1
    */
   public static boolean isNotBlank(final CharSequence cs) {
